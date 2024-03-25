@@ -2,8 +2,8 @@ public class Main {
     public static void main(String[] args) {
 
         int ticket = 13676; //стоимость билета
-        int one_bonus = 20; //количество бонусов
-        int bonus = ticket/one_bonus;
+        int oneBonus = 20; //количество бонусов
+        int bonus = ticket / oneBonus;
         System.out.println(bonus + "  начислено бонусных миль");
     }
 }
